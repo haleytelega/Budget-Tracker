@@ -146,6 +146,7 @@ function sendTransaction(isAdding) {
 }
 
 document.querySelector("#add-btn").onclick = function() {
+  alert('Successfully added expense or deposit!');
   sendTransaction(true);
 };
 
