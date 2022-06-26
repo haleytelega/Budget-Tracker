@@ -146,10 +146,11 @@ function sendTransaction(isAdding) {
 }
 
 document.querySelector("#add-btn").onclick = function() {
-  alert('Successfully added expense or deposit!');
+  alert('Successfully added expense!');
   sendTransaction(true);
 };
 
 document.querySelector("#sub-btn").onclick = function() {
+  alert('Successfully added deposit!');
   sendTransaction(false);
 };
